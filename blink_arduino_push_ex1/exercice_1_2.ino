@@ -10,18 +10,24 @@ void setup() {
   pinMode(buttonPin, INPUT);
 }
 
-void loop() {
-  if (digitalRead(buttonPin) == HIGH) {
-    digitalWrite(led, HIGH);
-    if (!buttonPressed) {
-      counter++;
-      //debounce
-      delay(10);
-      Serial.println(counter);
-      buttonPressed = true;
+void exercice_1_2(){
+    if (digitalRead(buttonPin) == HIGH) 
+    {
+        digitalWrite(led, HIGH);
+        if (!buttonPressed) {
+            counter++;
+            //debounce
+            delay(10);
+            Serial.println(counter);
+            buttonPressed = true;
+        }
+    } 
+    else 
+    {
+        digitalWrite(led, LOW);
+        buttonPressed = false;
     }
-  } else {
-    digitalWrite(led, LOW);
-    buttonPressed = false;
-  }
+}
+void loop() {
+    exercice_1_2();
 }
