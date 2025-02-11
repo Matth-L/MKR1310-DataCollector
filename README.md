@@ -1,19 +1,13 @@
-
----
-
 # Lab 1: Data Acquisition with Arduino MKR1310 🌟
 
 This project is part of the Internet of Things (IoT) course at UQAC. 
 It aims to develop skills in embedded programming, data acquisition, and microcontroller communication. 
-
----
 
 ## 🎯 Goals
 - Master the Arduino MKR1310 and SAMD21 microcontroller.
 - Acquire sensor data (light, humidity, etc.).
 - Control actuators or display data via LCD/serial communication.
 - Implement a controller-driven data acquisition system.
----
 
 ## 🛠️ Materials
 - Arduino MKR1310
@@ -23,8 +17,6 @@ It aims to develop skills in embedded programming, data acquisition, and microco
 - RGB LCD display (I2C)
 - Jumper wires
 - Breadboard
-
----
 
 ## 📋 Exercises
 1. **LED Blinking** [🔗](./blink/blink_1/blink_1.ino)
@@ -36,5 +28,3 @@ It aims to develop skills in embedded programming, data acquisition, and microco
    - Display sensor data on an I2C-connected LCD.
 6. **Data Acquisition System** [🔗](./data_acquisition_c3/)
    - Implement a controller-driven system to acquire and display data from multiple sensors.
-
----
