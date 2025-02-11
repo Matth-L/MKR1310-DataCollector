@@ -19,7 +19,6 @@ void setup() {
 void loop() {
   if (Serial1.available() > 0) {
     // Lire les données envoyées par la carte 1 jusqu'a '\n' (retour à la ligne)
-
     String data = Serial1.readStringUntil('\n');  
     
     Serial.println(data);

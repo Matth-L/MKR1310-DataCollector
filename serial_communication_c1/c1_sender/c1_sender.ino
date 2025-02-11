@@ -8,11 +8,12 @@ void setup() {
   Serial1.begin(115200);   
 }
 
-uint16_t val;
-double dat;
+uint16_t val; // Valeur de la température
+double dat; // cast en double
 
 void loop() {
-    
+
+  // Lecture et Conversion 
   val = analogRead(1);
   dat = (double)val * 3.3 / 10.24;
 
