@@ -1,10 +1,14 @@
+/**
+ @file read_temp.ino
+ @brief Lis la température depuis un capteur et l'affiche
+*/
+
 void setup() {
   Serial.begin(9600);
 }
 
 void loop() {
   
-    // Déclaration des variables
     uint16_t val;
     double dat;
 
