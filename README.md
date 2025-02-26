@@ -18,6 +18,22 @@ It aims to develop skills in embedded programming, data acquisition, and microco
 - Jumper wires
 - Breadboard
 
+## 📊 Visualizations
+
+
+We used the serial plotter in the Arduino IDE to visualize the sensor data.
+
+### Light Sensor visualization
+
+![Light Sensor](./img/LightSensor.png)
+![Lumen](./img/lumen.png)
+
+### Temperature Sensor visualization
+![Temperature Sensor](./img/TempSensor.png)
+![Temperature](./img/temperature.png)
+
+
+
 ## 📋 Exercises
 1. **LED Blinking** [🔗](./blink/blink_1/blink_1.ino)
 2. **Button-Controlled LED**  [🔗](./blink/blink_2/blink_2.ino)
