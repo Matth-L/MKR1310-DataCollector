@@ -1,4 +1,4 @@
-# Lab 1: Data Acquisition with Arduino MKR1310 🌟
+Data Acquisition with Arduino MKR1310 🌟
 
 This project is part of the Internet of Things (IoT) course at UQAC. 
 It aims to develop skills in embedded programming, data acquisition, and microcontroller communication. 
